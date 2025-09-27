@@ -7,9 +7,13 @@ const H1n=styled.h1`
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     padding: 1%;
+    color: white;
 `;
 
 const ParentDiv=styled.div`
+    background-color: darkblue;
+    width: 80vw;
+    margin: auto;
 `;
 
 export default function App(){
@@ -30,8 +34,11 @@ export default function App(){
 
     return(
         <ParentDiv>
+            <header>
+                <title> MP-2 | CS391A </title>
+            </header>
             <H1n>
-                Testing
+                Star Wars Characters API
             </H1n>
             <StarWars data={data}/>
         </ParentDiv>
