@@ -29,9 +29,12 @@ export default function App(){
     }, [data.length]);
 
     return(
-        <div>
+        <ParentDiv>
+            <H1n>
+                Testing
+            </H1n>
             <StarWars data={data}/>
-        </div>
+        </ParentDiv>
     )
 }
 
