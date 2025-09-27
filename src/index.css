@@ -1,0 +1,7 @@
+/* Alex Olson | alexko@bu.edu | MP-2 */
+/* index.css | Removed all default code and replaced with just universals */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
